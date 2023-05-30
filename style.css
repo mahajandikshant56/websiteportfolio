@@ -1,0 +1,145 @@
+body{
+    background-color:rgb(0, 0,33);
+    color: white;
+    font-family: Poppins;
+}
+.left{
+    font-size: 2rem ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(7, 7, 161);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+nav li a:hover{
+    color:rgb(158, 158, 233);
+    font-size: 1.04rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 90px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftsection{
+    padding-top: 10%;
+    font-size: 2rem;
+
+}
+.rightsection img{
+    height: 300px;
+    width: 300px;
+    margin: 50px 0px;
+
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+hr{
+    border:0;
+    background-color: rgb(87, 51, 232);
+    height:1px;
+    margin:40px 84px;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.textgray{
+    color:gray;
+}
+.secondsection .box{
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 150px;
+} 
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+.vertical-desc{
+position: relative;
+top: 86px ;
+width: 150px;
+font-size: 9px;
+color: gray;
+}
+footer{
+    background-color:rgb(28, 28, 89);
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer-first h1{
+    font-size: medium;
+
+}
+.footer >div{
+    width: 150px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.leftsection .button{
+    padding: 50px 0;
+}
+.leftsection .butn{
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.secondsection h2{
+    background-color: rgb(193, 68, 68);
+    font-size: 2rem;
+    text-align: center;
+    }
